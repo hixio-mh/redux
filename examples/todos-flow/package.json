@@ -15,7 +15,8 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.2",
     "redux": "^4.0.1",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "build": "react-scripts build",
@@ -23,12 +24,15 @@
     "flow": "flow",
     "postinstall": "flow-typed install",
     "start": "react-scripts start",
-    "test": "react-scripts test --env=node"
+    "test": "react-scripts test --env=node",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
