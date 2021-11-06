@@ -5,7 +5,7 @@
   "devDependencies": {
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
-    "flow-bin": "^0.78.0",
+    "flow-bin": "^0.162.0",
     "flow-typed": "2.5.1",
     "react-scripts": "^3.0.0",
     "redux-mock-store": "1.5.3"
